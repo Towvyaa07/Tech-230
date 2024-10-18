@@ -1,0 +1,68 @@
+.container{
+display: flex;
+position: relative;
+}
+
+.container .image{
+    width: 50%;
+}
+
+
+.info-heading{
+    background-color: aliceblue;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    width: 90%;
+    background-color: white;
+}
+
+.input{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    border-style:hidden
+}
+.password{
+    display: flex;
+    justify-content: right;
+    width: 90%;
+    
+}
+
+button{
+    width: 80%;
+    height: 50px;
+    border-radius: 6%;
+    border-style: none;
+    margin-left:10% ;
+    background-color: green;
+    color: aquamarine;
+}
+
+.red {
+    border: 2px solid red;
+}
+
+.green {
+    border: 2px solid green;
+}
+
+.blue {
+    border: 2px solid blue;
+}
